@@ -14,9 +14,12 @@ Comparison of performance of the following algorithms is done :
 5. Co-Clustering
 6. Matrix Factorization
 
-Since each of the algorithm has its own pros and cons, we employ a hybrid approach combining different algorithms. The least RMSE of 0.8558 is achieved by a hybrid model that combines SVD, SVD++ and SlopeOne, with most weights 0.19, 0.47, 0.19 respectively. The weights are obtained by using the equation : $$w_i = G \left( \frac{1}{RMSE_i} + \frac{1}{MAE_i} \right)^12$$
+Since each of the algorithm has its own pros and cons, we employ a hybrid approach combining different algorithms. The least RMSE of 0.8558 is achieved by a hybrid model that combines SVD, SVD++ and SlopeOne, with most weights 0.19, 0.47, 0.19 respectively. The result of the experiments is given in the table below : 
+![](images/result_1.png?raw=true)  
 
-The result of the experiments is given in the table below : 
+Next, we implement a novel interest sequence based CF from the paper [Collaborative Filtering Recommendation on Users’ Interest Sequences](https://doi.org/10.1371/journal.pone.0155739). The results of this approach are:
 
-![](images/result.png?raw=true)  
+![](images/result_2.png?raw=true)  
 
+Detailed analysis is discussed in the Report. 
+Steps to run : 
