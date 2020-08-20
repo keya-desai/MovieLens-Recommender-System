@@ -22,4 +22,3 @@ Next, we implement a novel interest sequence based CF from the paper [Collaborat
 ![](images/result_2.png?raw=true)  
 
 Detailed analysis is discussed in the Report. 
-Steps to run : 
